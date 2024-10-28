@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com duas colunas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nome/Telefone</h1>
+        </header>
+        <form id="nome-telefone">
+            <input type="text" id="nome" required placeholder="Nome" />
+            <input type="tel" id="telefone" required placeholder="Telefone" />
+            <button type="submit" id="adicionarContato">Adicionar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>---</td>
+                    <td id="nome-encontrado">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

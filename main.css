@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px; /* Largura máxima do form */
+    width: 100%; /* Para ocupar toda a largura disponível */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    margin-bottom: 56px;
+}
+
+form input {
+    flex-grow: 1; /* Faz o input crescer para ocupar espaço */
+    margin-right: 10px; /* Espaço à direita do input */
+    font-size: 24px; /* Tamanho da fonte */
+    background-color: #fff; /* Cor de fundo */
+    border: none; /* Remover borda */
+    border-bottom: 2px solid #000; /* Borda inferior */
+    padding: 8px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
+}
+
+form button {
+    flex-shrink: 0; /* Não permite que o botão encolha */
+    background-color: #009432; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    border: none; /* Remover borda */
+    cursor: pointer; /* Cursor de ponteiro */
+    padding: 8px; /* Espaçamento interno */
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
